@@ -1,13 +1,13 @@
 body{
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #1a1a1a;
 }
 #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background: #e1e3eb;
+    background: transparent;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
     z-index: 999;
     position: sticky;top: 0;left: 0;
@@ -26,7 +26,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #ededed;
     transition: 0.3s ease;
 }
 #navbar li a:hover,
@@ -58,7 +58,7 @@ h2{
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 0px;
-    color: rgb(7, 8, 8);
+    color: #ededed;
 }
 h5{
     border-radius: 50%;
@@ -71,7 +71,7 @@ h5{
     color: white;
 }
 .me{
-    color:black;
+    color:#ededed;
     font-family: fantasy;
 }
 .footer{
@@ -79,7 +79,7 @@ h5{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(164, 147, 205);
+    background-color: #1a1a1a;
     color: white;
     display: block;
     text-align: center;
